@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>introdaction</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2><b id="sp">Hello World</b> <br> My Name is:  <span>Emad Aldean</span></h2>
+        <p>Alive since 1996, living in Jordan and i love to programing, writing codes and create solutions to slove proplems, so i created this page to let you know more about me...<br> <br>
+            I'm still student in LTUC Abdul Aziz Ghurair School Of Advanced Computing, i expect to graduate this eyar and im lokking to get the mark (A+) in this course, im working hard for that and always doing my best<br>
+        Im also....
+        <a href="#">ReAd MoRe</a>
+        </p>
+        </div>
+        <img src="sources/pic2.png" id="pic1">
+      <ul class="sci">
+        <li><a href="https://www.linkedin.com/in/emad-alzoubi/" target="_blank"><img src="sources/linkedin.png" alt=""></a></li>
+        <li><a href="https://twitter.com/Emadzxy" target="_blank"><img src="sources/twitter.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/3madov_7/" target="_blank"><img src="sources/instagram.png" alt=""></a></li>
+        <li><a href="mailto:emadzxy7@gmail.com?subject=Bit%20of%20help" target="_blank"><img src="sources/mail.png" alt=""></a></li>
+      </ul>
+    </section>
+    <div id="navigation">
+        <ul>
+        <h2>My Hot Repos:</h2>
+        <li><a href="https://github.com/3madov-77">Profile</a></li>
+        <li><a href="https://3madov-77.github.io/learning-journal/">Learning Joranl</a></li>
+        <li><a href="https://3madov-77.github.io/HTML-Journy/">HTML Journy</a></li>
+        <li><a href="https://3madov-77.github.io/reading-notes/">Reading Notes</a></li>
+      </ul>
+    </div>
+
+    <script>
+      function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+      }
+    </script>
+
+  </body>
+</html>
