@@ -57,6 +57,11 @@ var theShpes =[
     // random = randomNumber(0, 4);
     cheek(); 
   }
+  for(var i =0; i < Array.length; i++){
+    Array[i]
+  }
+Array.forEach(elment =>{ elment + 1 });
+
 
   function cheek(){
     current.forEach(item => {if(squers[currentPosition + item + rowN].classList.contains('ground') || squers[currentPosition + item + rowN].classList.contains('taked')){
