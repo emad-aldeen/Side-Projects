@@ -60,7 +60,8 @@ var theShpes =[
   for(var i =0; i < Array.length; i++){
     Array[i]
   }
-Array.forEach(elment =>{ elment + 1 });
+
+// Array.forEach(elment =>{ elment + 1 });
 
 
   function cheek(){

@@ -145,16 +145,17 @@ font-size: 2.5em;
   transition: 1s;
 }
 .content a:hover {
-  width: 190px;
-  margin-left: 50px;
+  width: 195px;
+  margin-left: 45px;
   border-radius: 30px;
 }
 /*************************************** picture *************************************/
 #pic1{
   position: fixed;
   left: 50%;
-  width: 40%;
-  filter: grayscale(100%);
+  width: 37%;
+  filter: grayscale(500%);
+  border-radius: 120px;
 }
 /******************************* Contact section ***********************************************/
 .sci {
