@@ -64,6 +64,7 @@ var theShpes =[
 // Array.forEach(elment =>{ elment + 1 });
 
 
+
   function cheek(){
     current.forEach(item => {if(squers[currentPosition + item + rowN].classList.contains('ground') || squers[currentPosition + item + rowN].classList.contains('taked')){
         current.forEach(item2 => squers[currentPosition + item2].classList.add('taked'));
