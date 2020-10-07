@@ -186,3 +186,14 @@ font-size: 2.5em;
   mix-blend-mode: difference;
 }
 /*********************************************************************************/
+
+@media screen and (max-width: 480px) {
+  
+#pic1{
+  position: fixed;
+  left: 10%;
+  filter: grayscale(0%);
+}
+  
+
+}
